@@ -1,0 +1,32 @@
+{
+  "name": "หาช่าง - หางานช่าง",
+  "short_name": "หาช่าง",
+  "description": "แพลตฟอร์มหาช่างใกล้บ้าน และงานใกล้ร้านสำหรับช่าง/อู่",
+  "lang": "th",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E1B2E",
+  "theme_color": "#FFB400",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

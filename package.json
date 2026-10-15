@@ -1,0 +1,23 @@
+{
+  "name": "hachang",
+  "version": "1.0.0",
+  "private": true,
+  "description": "หาช่าง - หางานช่าง marketplace",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:lite": "node --disable-warning=ExperimentalWarning server-lite.js",
+    "test": "node --disable-warning=ExperimentalWarning test-lite.js",
+    "db:init": "psql \"$DATABASE_URL\" -f schema.sql",
+    "db:seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.12.0"
+  }
+}

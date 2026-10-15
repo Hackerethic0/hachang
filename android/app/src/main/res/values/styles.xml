@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.HaChang" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#FFB400</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+</resources>

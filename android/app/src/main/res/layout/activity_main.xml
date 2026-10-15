@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@+id/web" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:id="@+id/bar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="3dp" android:max="100" android:visibility="gone"/>
+    <LinearLayout android:id="@+id/err" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="32dp" android:background="#FFFFFF" android:visibility="gone">
+        <TextView android:id="@+id/errMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:textColor="#0E1B2E" android:gravity="center" android:text="เชื่อมต่อเซิร์ฟเวอร์ไม่ได้"/>
+        <TextView android:id="@+id/errUrl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="#5F6D82" android:gravity="center"/>
+        <Button android:id="@+id/retry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="ลองใหม่"/>
+        <Button android:id="@+id/change" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="เปลี่ยนที่อยู่เซิร์ฟเวอร์"/>
+    </LinearLayout>
+</FrameLayout>
